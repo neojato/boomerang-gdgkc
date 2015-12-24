@@ -13,12 +13,12 @@ boomerang.factory('Config', function () {
         'facebook'      : 'GDGKansasCity', // Facebook handle
         'github'        : 'GDGKansasCity', // GitHub handle
         'cover' : {
-            title : 'Camp Google - Starts July 13th!',
-            subtitle : "Camp Google is a free camp for kids, full of fun science activities and adventures led by experts.",
-            url : '/images/cover/camp-google-2015g',
+            title : 'DevFest KC - February 20th!',
+            subtitle : "Attend Mobile and Web sessions lead by the experts and have lots fun!",
+            url : '/images/cover/devfest-2016.png',
             button : {
-                text : 'Read More',
-                url : 'https://camp.withgoogle.com/'
+                text : 'More Info',
+                url : 'https://devfest.gdgkc.org/'
             }
         },
         'sponsors' : {
@@ -40,18 +40,10 @@ boomerang.factory('Config', function () {
             },
             2 : {
                 id : 3,
-                name : 'Adknowledge',
-                url : 'https://www.adknowledge.com/',
+                name : 'Women Techmakers',
+                url : 'https://www.womentechmakers.com/',
                 image : {
-                    url : '../images/sponsor/adknowledge.jpg'
-                }
-            },
-            3 : {
-                id : 4,
-                name : 'Orielly',
-                url : 'https://www.oreilly.com/',
-                image : {
-                    url : '../images/sponsor/oreilly.gif'
+                    url : '../images/sponsor/wtm.png'
                 }
             }
         }
